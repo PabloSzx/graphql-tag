@@ -10,7 +10,7 @@ With `pnpm`, you can do:
 {
   "pnpm": {
     "overrides": {
-      "graphql-tag": "npm:graphql-tag-esm@2.12.6"
+      "graphql-tag": "npm:graphql-tag-esm@2.12.8"
     }
   }
 }

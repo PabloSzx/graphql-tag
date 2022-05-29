@@ -1,6 +1,6 @@
 {
   "name": "graphql-tag-esm",
-  "version": "2.12.6",
+  "version": "2.12.8",
   "description": "Fork of graphql-tag but full ESM - A JavaScript template literal tag that parses GraphQL queries",
   "homepage": "https://github.com/apollographql/graphql-tag#readme",
   "bugs": {
@@ -14,7 +14,7 @@
   "author": "",
   "sideEffects": false,
   "type": "module",
-  "main": "./main.js",
+  "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "files": [
     "lib"
