@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "outDir": "./lib",
+    "emitDeclarationOnly": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
     "noUnusedParameters": false,
@@ -12,9 +13,9 @@
     "sourceMap": true,
     "declaration": true,
     "declarationMap": true,
-    "module": "es2015",
+    "module": "esnext",
+    "target": "esnext",
     "esModuleInterop": true,
-    "lib": ["es2015", "dom"],
     "types": ["node", "chai", "mocha"]
   },
   "include": ["src/**/*.ts"]
